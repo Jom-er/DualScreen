@@ -32,10 +32,10 @@ jobs:
 
     - name: Build executable
       run: |
-        pyinstaller --onefile --windowed --hidden-import PyQt5.QtCore --hidden-import PyQt5.QtGui --hidden-import PyQt5.QtWidgets --hidden-import mss --hidden-import pyaudio --hidden-import ffmpeg --hidden-import numpy --hidden-import cv2 main.py
+        pyinstaller --onefile --windowed --name DualScreen --name DualScreen --hidden-import PyQt5.QtCore --hidden-import PyQt5.QtGui --hidden-import PyQt5.QtWidgets --hidden-import mss --hidden-import pyaudio --hidden-import ffmpeg --hidden-import numpy --hidden-import cv2 main.py
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: DualScreen-Windows
-        path: dist/main.exe
+        path: dist/DualScreen.exe
