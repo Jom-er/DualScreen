@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+config.json
+temp_video.avi
+temp_audio.wav
+*.mp4

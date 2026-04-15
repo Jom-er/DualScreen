@@ -1,0 +1,7 @@
+PyQt5
+mss
+pyaudio
+ffmpeg-python
+numpy
+opencv-python
+pyqt5-tools

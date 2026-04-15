@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+DualScreen.egg-info/PKG-INFO
+DualScreen.egg-info/SOURCES.txt
+DualScreen.egg-info/dependency_links.txt
+DualScreen.egg-info/top_level.txt
